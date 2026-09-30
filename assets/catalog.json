@@ -1,0 +1,762 @@
+{
+  "groups": [
+    {
+      "id": "April_Fools",
+      "label": "April Fools'"
+    },
+    {
+      "id": "Bedrock",
+      "label": "Bedrock Edition"
+    },
+    {
+      "id": "Bedrock_Vibrant_Visuals",
+      "label": "Bedrock Vibrant Visuals"
+    },
+    {
+      "id": "Education",
+      "label": "Education Edition"
+    },
+    {
+      "id": "Java_and_Bedrock",
+      "label": "Java + Bedrock"
+    },
+    {
+      "id": "Java",
+      "label": "Java Edition"
+    },
+    {
+      "id": "Others",
+      "label": "Other Editions"
+    }
+  ],
+  "panoramas": [
+    {
+      "id": "April_Fools/craftmine",
+      "title": "Craftmine",
+      "category": "April Fools'",
+      "categoryId": "April_Fools",
+      "faces": [
+        "assets/April_Fools/craftmine/textures/ui/panorama_0.png",
+        "assets/April_Fools/craftmine/textures/ui/panorama_1.png",
+        "assets/April_Fools/craftmine/textures/ui/panorama_2.png",
+        "assets/April_Fools/craftmine/textures/ui/panorama_3.png",
+        "assets/April_Fools/craftmine/textures/ui/panorama_4.png",
+        "assets/April_Fools/craftmine/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "April_Fools/herdcraft",
+      "title": "Herdcraft",
+      "category": "April Fools'",
+      "categoryId": "April_Fools",
+      "faces": [
+        "assets/April_Fools/herdcraft/textures/ui/panorama_0.png",
+        "assets/April_Fools/herdcraft/textures/ui/panorama_1.png",
+        "assets/April_Fools/herdcraft/textures/ui/panorama_2.png",
+        "assets/April_Fools/herdcraft/textures/ui/panorama_3.png",
+        "assets/April_Fools/herdcraft/textures/ui/panorama_4.png",
+        "assets/April_Fools/herdcraft/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "April_Fools/poisonous_potato",
+      "title": "Poisonous Potato",
+      "category": "April Fools'",
+      "categoryId": "April_Fools",
+      "faces": [
+        "assets/April_Fools/poisonous_potato/textures/ui/panorama_0.png",
+        "assets/April_Fools/poisonous_potato/textures/ui/panorama_1.png",
+        "assets/April_Fools/poisonous_potato/textures/ui/panorama_2.png",
+        "assets/April_Fools/poisonous_potato/textures/ui/panorama_3.png",
+        "assets/April_Fools/poisonous_potato/textures/ui/panorama_4.png",
+        "assets/April_Fools/poisonous_potato/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Bedrock/aquatic_bedrock",
+      "title": "Aquatic",
+      "category": "Bedrock Edition",
+      "categoryId": "Bedrock",
+      "faces": [
+        "assets/Bedrock/aquatic_bedrock/textures/ui/panorama_0.png",
+        "assets/Bedrock/aquatic_bedrock/textures/ui/panorama_1.png",
+        "assets/Bedrock/aquatic_bedrock/textures/ui/panorama_2.png",
+        "assets/Bedrock/aquatic_bedrock/textures/ui/panorama_3.png",
+        "assets/Bedrock/aquatic_bedrock/textures/ui/panorama_4.png",
+        "assets/Bedrock/aquatic_bedrock/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Bedrock/bedrock_beta",
+      "title": "Bedrock Beta",
+      "category": "Bedrock Edition",
+      "categoryId": "Bedrock",
+      "faces": [
+        "assets/Bedrock/bedrock_beta/textures/ui/panorama_0.png",
+        "assets/Bedrock/bedrock_beta/textures/ui/panorama_1.png",
+        "assets/Bedrock/bedrock_beta/textures/ui/panorama_2.png",
+        "assets/Bedrock/bedrock_beta/textures/ui/panorama_3.png",
+        "assets/Bedrock/bedrock_beta/textures/ui/panorama_4.png",
+        "assets/Bedrock/bedrock_beta/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Bedrock/better_together",
+      "title": "Better Together",
+      "category": "Bedrock Edition",
+      "categoryId": "Bedrock",
+      "faces": [
+        "assets/Bedrock/better_together/textures/ui/panorama_0.png",
+        "assets/Bedrock/better_together/textures/ui/panorama_1.png",
+        "assets/Bedrock/better_together/textures/ui/panorama_2.png",
+        "assets/Bedrock/better_together/textures/ui/panorama_3.png",
+        "assets/Bedrock/better_together/textures/ui/panorama_4.png",
+        "assets/Bedrock/better_together/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Bedrock/buzzy_bees_bedrock",
+      "title": "Buzzy Bees",
+      "category": "Bedrock Edition",
+      "categoryId": "Bedrock",
+      "faces": [
+        "assets/Bedrock/buzzy_bees_bedrock/textures/ui/panorama_0.png",
+        "assets/Bedrock/buzzy_bees_bedrock/textures/ui/panorama_1.png",
+        "assets/Bedrock/buzzy_bees_bedrock/textures/ui/panorama_2.png",
+        "assets/Bedrock/buzzy_bees_bedrock/textures/ui/panorama_3.png",
+        "assets/Bedrock/buzzy_bees_bedrock/textures/ui/panorama_4.png",
+        "assets/Bedrock/buzzy_bees_bedrock/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Bedrock/cats_and_pandas",
+      "title": "Cats And Pandas",
+      "category": "Bedrock Edition",
+      "categoryId": "Bedrock",
+      "faces": [
+        "assets/Bedrock/cats_and_pandas/textures/ui/panorama_0.png",
+        "assets/Bedrock/cats_and_pandas/textures/ui/panorama_1.png",
+        "assets/Bedrock/cats_and_pandas/textures/ui/panorama_2.png",
+        "assets/Bedrock/cats_and_pandas/textures/ui/panorama_3.png",
+        "assets/Bedrock/cats_and_pandas/textures/ui/panorama_4.png",
+        "assets/Bedrock/cats_and_pandas/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Bedrock/chase_the_skies_bedrock",
+      "title": "Chase The Skies",
+      "category": "Bedrock Edition",
+      "categoryId": "Bedrock",
+      "faces": [
+        "assets/Bedrock/chase_the_skies_bedrock/textures/ui/panorama_0.png",
+        "assets/Bedrock/chase_the_skies_bedrock/textures/ui/panorama_1.png",
+        "assets/Bedrock/chase_the_skies_bedrock/textures/ui/panorama_2.png",
+        "assets/Bedrock/chase_the_skies_bedrock/textures/ui/panorama_3.png",
+        "assets/Bedrock/chase_the_skies_bedrock/textures/ui/panorama_4.png",
+        "assets/Bedrock/chase_the_skies_bedrock/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Bedrock/chase_the_skies_bedrock_1.21.90.25",
+      "title": "Chase The Skies Bedrock 1.21.90.25",
+      "category": "Bedrock Edition",
+      "categoryId": "Bedrock",
+      "faces": [
+        "assets/Bedrock/chase_the_skies_bedrock_1.21.90.25/textures/ui/panorama_0.png",
+        "assets/Bedrock/chase_the_skies_bedrock_1.21.90.25/textures/ui/panorama_1.png",
+        "assets/Bedrock/chase_the_skies_bedrock_1.21.90.25/textures/ui/panorama_2.png",
+        "assets/Bedrock/chase_the_skies_bedrock_1.21.90.25/textures/ui/panorama_3.png",
+        "assets/Bedrock/chase_the_skies_bedrock_1.21.90.25/textures/ui/panorama_4.png",
+        "assets/Bedrock/chase_the_skies_bedrock_1.21.90.25/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Bedrock/christmas_bedrock",
+      "title": "Christmas",
+      "category": "Bedrock Edition",
+      "categoryId": "Bedrock",
+      "faces": [
+        "assets/Bedrock/christmas_bedrock/textures/ui/panorama_0.png",
+        "assets/Bedrock/christmas_bedrock/textures/ui/panorama_1.png",
+        "assets/Bedrock/christmas_bedrock/textures/ui/panorama_2.png",
+        "assets/Bedrock/christmas_bedrock/textures/ui/panorama_3.png",
+        "assets/Bedrock/christmas_bedrock/textures/ui/panorama_4.png",
+        "assets/Bedrock/christmas_bedrock/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Bedrock/halloween_2021_bedrock",
+      "title": "Halloween 2021",
+      "category": "Bedrock Edition",
+      "categoryId": "Bedrock",
+      "faces": [
+        "assets/Bedrock/halloween_2021_bedrock/textures/ui/panorama_0.png",
+        "assets/Bedrock/halloween_2021_bedrock/textures/ui/panorama_1.png",
+        "assets/Bedrock/halloween_2021_bedrock/textures/ui/panorama_2.png",
+        "assets/Bedrock/halloween_2021_bedrock/textures/ui/panorama_3.png",
+        "assets/Bedrock/halloween_2021_bedrock/textures/ui/panorama_4.png",
+        "assets/Bedrock/halloween_2021_bedrock/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Bedrock/halloween_2022_bedrock",
+      "title": "Halloween 2022",
+      "category": "Bedrock Edition",
+      "categoryId": "Bedrock",
+      "faces": [
+        "assets/Bedrock/halloween_2022_bedrock/textures/ui/panorama_0.jpg",
+        "assets/Bedrock/halloween_2022_bedrock/textures/ui/panorama_1.jpg",
+        "assets/Bedrock/halloween_2022_bedrock/textures/ui/panorama_2.jpg",
+        "assets/Bedrock/halloween_2022_bedrock/textures/ui/panorama_3.jpg",
+        "assets/Bedrock/halloween_2022_bedrock/textures/ui/panorama_4.jpg",
+        "assets/Bedrock/halloween_2022_bedrock/textures/ui/panorama_5.jpg"
+      ]
+    },
+    {
+      "id": "Bedrock/preview_bedrock",
+      "title": "Preview",
+      "category": "Bedrock Edition",
+      "categoryId": "Bedrock",
+      "faces": [
+        "assets/Bedrock/preview_bedrock/textures/ui/panorama_0.png",
+        "assets/Bedrock/preview_bedrock/textures/ui/panorama_1.png",
+        "assets/Bedrock/preview_bedrock/textures/ui/panorama_2.png",
+        "assets/Bedrock/preview_bedrock/textures/ui/panorama_3.png",
+        "assets/Bedrock/preview_bedrock/textures/ui/panorama_4.png",
+        "assets/Bedrock/preview_bedrock/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Bedrock/tiny_takeover_bedrock",
+      "title": "Tiny Takeover",
+      "category": "Bedrock Edition",
+      "categoryId": "Bedrock",
+      "faces": [
+        "assets/Bedrock/tiny_takeover_bedrock/textures/ui/panorama_0.png",
+        "assets/Bedrock/tiny_takeover_bedrock/textures/ui/panorama_1.png",
+        "assets/Bedrock/tiny_takeover_bedrock/textures/ui/panorama_2.png",
+        "assets/Bedrock/tiny_takeover_bedrock/textures/ui/panorama_3.png",
+        "assets/Bedrock/tiny_takeover_bedrock/textures/ui/panorama_4.png",
+        "assets/Bedrock/tiny_takeover_bedrock/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Bedrock/village_and_pillage_bedrock",
+      "title": "Village And Pillage",
+      "category": "Bedrock Edition",
+      "categoryId": "Bedrock",
+      "faces": [
+        "assets/Bedrock/village_and_pillage_bedrock/textures/ui/panorama_0.png",
+        "assets/Bedrock/village_and_pillage_bedrock/textures/ui/panorama_1.png",
+        "assets/Bedrock/village_and_pillage_bedrock/textures/ui/panorama_2.png",
+        "assets/Bedrock/village_and_pillage_bedrock/textures/ui/panorama_3.png",
+        "assets/Bedrock/village_and_pillage_bedrock/textures/ui/panorama_4.png",
+        "assets/Bedrock/village_and_pillage_bedrock/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Bedrock_Vibrant_Visuals/chase_the_skies_bedrock-vv",
+      "title": "Chase The Skies Bedrock Vv",
+      "category": "Bedrock Vibrant Visuals",
+      "categoryId": "Bedrock_Vibrant_Visuals",
+      "faces": [
+        "assets/Bedrock_Vibrant_Visuals/chase_the_skies_bedrock-vv/textures/ui/panorama_0.png",
+        "assets/Bedrock_Vibrant_Visuals/chase_the_skies_bedrock-vv/textures/ui/panorama_1.png",
+        "assets/Bedrock_Vibrant_Visuals/chase_the_skies_bedrock-vv/textures/ui/panorama_2.png",
+        "assets/Bedrock_Vibrant_Visuals/chase_the_skies_bedrock-vv/textures/ui/panorama_3.png",
+        "assets/Bedrock_Vibrant_Visuals/chase_the_skies_bedrock-vv/textures/ui/panorama_4.png",
+        "assets/Bedrock_Vibrant_Visuals/chase_the_skies_bedrock-vv/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Bedrock_Vibrant_Visuals/copper_age_bedrock-vv",
+      "title": "Copper Age Bedrock Vv",
+      "category": "Bedrock Vibrant Visuals",
+      "categoryId": "Bedrock_Vibrant_Visuals",
+      "faces": [
+        "assets/Bedrock_Vibrant_Visuals/copper_age_bedrock-vv/textures/ui/panorama_0.png",
+        "assets/Bedrock_Vibrant_Visuals/copper_age_bedrock-vv/textures/ui/panorama_1.png",
+        "assets/Bedrock_Vibrant_Visuals/copper_age_bedrock-vv/textures/ui/panorama_2.png",
+        "assets/Bedrock_Vibrant_Visuals/copper_age_bedrock-vv/textures/ui/panorama_3.png",
+        "assets/Bedrock_Vibrant_Visuals/copper_age_bedrock-vv/textures/ui/panorama_4.png",
+        "assets/Bedrock_Vibrant_Visuals/copper_age_bedrock-vv/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Bedrock_Vibrant_Visuals/mounts_of_mayhem_bedrock-vv",
+      "title": "Mounts Of Mayhem Bedrock Vv",
+      "category": "Bedrock Vibrant Visuals",
+      "categoryId": "Bedrock_Vibrant_Visuals",
+      "faces": [
+        "assets/Bedrock_Vibrant_Visuals/mounts_of_mayhem_bedrock-vv/textures/ui/panorama_0.png",
+        "assets/Bedrock_Vibrant_Visuals/mounts_of_mayhem_bedrock-vv/textures/ui/panorama_1.png",
+        "assets/Bedrock_Vibrant_Visuals/mounts_of_mayhem_bedrock-vv/textures/ui/panorama_2.png",
+        "assets/Bedrock_Vibrant_Visuals/mounts_of_mayhem_bedrock-vv/textures/ui/panorama_3.png",
+        "assets/Bedrock_Vibrant_Visuals/mounts_of_mayhem_bedrock-vv/textures/ui/panorama_4.png",
+        "assets/Bedrock_Vibrant_Visuals/mounts_of_mayhem_bedrock-vv/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Bedrock_Vibrant_Visuals/tiny_takeover_bedrock-vv",
+      "title": "Tiny Takeover Bedrock Vv",
+      "category": "Bedrock Vibrant Visuals",
+      "categoryId": "Bedrock_Vibrant_Visuals",
+      "faces": [
+        "assets/Bedrock_Vibrant_Visuals/tiny_takeover_bedrock-vv/textures/ui/panorama_0.png",
+        "assets/Bedrock_Vibrant_Visuals/tiny_takeover_bedrock-vv/textures/ui/panorama_1.png",
+        "assets/Bedrock_Vibrant_Visuals/tiny_takeover_bedrock-vv/textures/ui/panorama_2.png",
+        "assets/Bedrock_Vibrant_Visuals/tiny_takeover_bedrock-vv/textures/ui/panorama_3.png",
+        "assets/Bedrock_Vibrant_Visuals/tiny_takeover_bedrock-vv/textures/ui/panorama_4.png",
+        "assets/Bedrock_Vibrant_Visuals/tiny_takeover_bedrock-vv/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Education/1.14_education",
+      "title": "1.14",
+      "category": "Education Edition",
+      "categoryId": "Education",
+      "faces": [
+        "assets/Education/1.14_education/textures/ui/panorama_0.png",
+        "assets/Education/1.14_education/textures/ui/panorama_1.png",
+        "assets/Education/1.14_education/textures/ui/panorama_2.png",
+        "assets/Education/1.14_education/textures/ui/panorama_3.png",
+        "assets/Education/1.14_education/textures/ui/panorama_4.png",
+        "assets/Education/1.14_education/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Education/1.14_demo_education",
+      "title": "1.14 Demo",
+      "category": "Education Edition",
+      "categoryId": "Education",
+      "faces": [
+        "assets/Education/1.14_demo_education/textures/ui/panorama_0.png",
+        "assets/Education/1.14_demo_education/textures/ui/panorama_1.png",
+        "assets/Education/1.14_demo_education/textures/ui/panorama_2.png",
+        "assets/Education/1.14_demo_education/textures/ui/panorama_3.png",
+        "assets/Education/1.14_demo_education/textures/ui/panorama_4.png",
+        "assets/Education/1.14_demo_education/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Education/chase_the_clouds_education",
+      "title": "Chase The Clouds",
+      "category": "Education Edition",
+      "categoryId": "Education",
+      "faces": [
+        "assets/Education/chase_the_clouds_education/textures/ui/panorama_0.png",
+        "assets/Education/chase_the_clouds_education/textures/ui/panorama_1.png",
+        "assets/Education/chase_the_clouds_education/textures/ui/panorama_2.png",
+        "assets/Education/chase_the_clouds_education/textures/ui/panorama_3.png",
+        "assets/Education/chase_the_clouds_education/textures/ui/panorama_4.png",
+        "assets/Education/chase_the_clouds_education/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Education/cloud_education",
+      "title": "Cloud",
+      "category": "Education Edition",
+      "categoryId": "Education",
+      "faces": [
+        "assets/Education/cloud_education/textures/ui/panorama_0.png",
+        "assets/Education/cloud_education/textures/ui/panorama_1.png",
+        "assets/Education/cloud_education/textures/ui/panorama_2.png",
+        "assets/Education/cloud_education/textures/ui/panorama_3.png",
+        "assets/Education/cloud_education/textures/ui/panorama_4.png",
+        "assets/Education/cloud_education/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Education/copper_collaborate_complete_education",
+      "title": "Copper Collaborate Complete",
+      "category": "Education Edition",
+      "categoryId": "Education",
+      "faces": [
+        "assets/Education/copper_collaborate_complete_education/textures/ui/panorama_0.png",
+        "assets/Education/copper_collaborate_complete_education/textures/ui/panorama_1.png",
+        "assets/Education/copper_collaborate_complete_education/textures/ui/panorama_2.png",
+        "assets/Education/copper_collaborate_complete_education/textures/ui/panorama_3.png",
+        "assets/Education/copper_collaborate_complete_education/textures/ui/panorama_4.png",
+        "assets/Education/copper_collaborate_complete_education/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Education/goat_education",
+      "title": "Goat",
+      "category": "Education Edition",
+      "categoryId": "Education",
+      "faces": [
+        "assets/Education/goat_education/textures/ui/panorama_0.png",
+        "assets/Education/goat_education/textures/ui/panorama_1.png",
+        "assets/Education/goat_education/textures/ui/panorama_2.png",
+        "assets/Education/goat_education/textures/ui/panorama_3.png",
+        "assets/Education/goat_education/textures/ui/panorama_4.png",
+        "assets/Education/goat_education/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Education/learn_to_code_education",
+      "title": "Learn To Code",
+      "category": "Education Edition",
+      "categoryId": "Education",
+      "faces": [
+        "assets/Education/learn_to_code_education/textures/ui/panorama_0.png",
+        "assets/Education/learn_to_code_education/textures/ui/panorama_1.png",
+        "assets/Education/learn_to_code_education/textures/ui/panorama_2.png",
+        "assets/Education/learn_to_code_education/textures/ui/panorama_3.png",
+        "assets/Education/learn_to_code_education/textures/ui/panorama_4.png",
+        "assets/Education/learn_to_code_education/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Education/mobile_multiplayer_more_education",
+      "title": "Mobile Multiplayer More",
+      "category": "Education Edition",
+      "categoryId": "Education",
+      "faces": [
+        "assets/Education/mobile_multiplayer_more_education/textures/ui/panorama_0.png",
+        "assets/Education/mobile_multiplayer_more_education/textures/ui/panorama_1.png",
+        "assets/Education/mobile_multiplayer_more_education/textures/ui/panorama_2.png",
+        "assets/Education/mobile_multiplayer_more_education/textures/ui/panorama_3.png",
+        "assets/Education/mobile_multiplayer_more_education/textures/ui/panorama_4.png",
+        "assets/Education/mobile_multiplayer_more_education/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Education/school_education",
+      "title": "School",
+      "category": "Education Edition",
+      "categoryId": "Education",
+      "faces": [
+        "assets/Education/school_education/textures/ui/panorama_0.png",
+        "assets/Education/school_education/textures/ui/panorama_1.png",
+        "assets/Education/school_education/textures/ui/panorama_2.png",
+        "assets/Education/school_education/textures/ui/panorama_3.png",
+        "assets/Education/school_education/textures/ui/panorama_4.png",
+        "assets/Education/school_education/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Education/school_demo_education",
+      "title": "School Demo",
+      "category": "Education Edition",
+      "categoryId": "Education",
+      "faces": [
+        "assets/Education/school_demo_education/textures/ui/panorama_0.png",
+        "assets/Education/school_demo_education/textures/ui/panorama_1.png",
+        "assets/Education/school_demo_education/textures/ui/panorama_2.png",
+        "assets/Education/school_demo_education/textures/ui/panorama_3.png",
+        "assets/Education/school_demo_education/textures/ui/panorama_4.png",
+        "assets/Education/school_demo_education/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Education/trails_and_tales_education",
+      "title": "Trails And Tales",
+      "category": "Education Edition",
+      "categoryId": "Education",
+      "faces": [
+        "assets/Education/trails_and_tales_education/textures/ui/panorama_0.png",
+        "assets/Education/trails_and_tales_education/textures/ui/panorama_1.png",
+        "assets/Education/trails_and_tales_education/textures/ui/panorama_2.png",
+        "assets/Education/trails_and_tales_education/textures/ui/panorama_3.png",
+        "assets/Education/trails_and_tales_education/textures/ui/panorama_4.png",
+        "assets/Education/trails_and_tales_education/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Education/wild_education",
+      "title": "Wild",
+      "category": "Education Edition",
+      "categoryId": "Education",
+      "faces": [
+        "assets/Education/wild_education/textures/ui/panorama_0.png",
+        "assets/Education/wild_education/textures/ui/panorama_1.png",
+        "assets/Education/wild_education/textures/ui/panorama_2.png",
+        "assets/Education/wild_education/textures/ui/panorama_3.png",
+        "assets/Education/wild_education/textures/ui/panorama_4.png",
+        "assets/Education/wild_education/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Java_and_Bedrock/buzzy_bees",
+      "title": "Buzzy Bees",
+      "category": "Java + Bedrock",
+      "categoryId": "Java_and_Bedrock",
+      "faces": [
+        "assets/Java_and_Bedrock/buzzy_bees/textures/ui/panorama_0.png",
+        "assets/Java_and_Bedrock/buzzy_bees/textures/ui/panorama_1.png",
+        "assets/Java_and_Bedrock/buzzy_bees/textures/ui/panorama_2.png",
+        "assets/Java_and_Bedrock/buzzy_bees/textures/ui/panorama_3.png",
+        "assets/Java_and_Bedrock/buzzy_bees/textures/ui/panorama_4.png",
+        "assets/Java_and_Bedrock/buzzy_bees/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Java_and_Bedrock/caves",
+      "title": "Caves",
+      "category": "Java + Bedrock",
+      "categoryId": "Java_and_Bedrock",
+      "faces": [
+        "assets/Java_and_Bedrock/caves/textures/ui/panorama_0.png",
+        "assets/Java_and_Bedrock/caves/textures/ui/panorama_1.png",
+        "assets/Java_and_Bedrock/caves/textures/ui/panorama_2.png",
+        "assets/Java_and_Bedrock/caves/textures/ui/panorama_3.png",
+        "assets/Java_and_Bedrock/caves/textures/ui/panorama_4.png",
+        "assets/Java_and_Bedrock/caves/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Java_and_Bedrock/cliffs",
+      "title": "Cliffs",
+      "category": "Java + Bedrock",
+      "categoryId": "Java_and_Bedrock",
+      "faces": [
+        "assets/Java_and_Bedrock/cliffs/textures/ui/panorama_0.png",
+        "assets/Java_and_Bedrock/cliffs/textures/ui/panorama_1.png",
+        "assets/Java_and_Bedrock/cliffs/textures/ui/panorama_2.png",
+        "assets/Java_and_Bedrock/cliffs/textures/ui/panorama_3.png",
+        "assets/Java_and_Bedrock/cliffs/textures/ui/panorama_4.png",
+        "assets/Java_and_Bedrock/cliffs/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Java_and_Bedrock/copper_age",
+      "title": "Copper Age",
+      "category": "Java + Bedrock",
+      "categoryId": "Java_and_Bedrock",
+      "faces": [
+        "assets/Java_and_Bedrock/copper_age/textures/ui/panorama_0.png",
+        "assets/Java_and_Bedrock/copper_age/textures/ui/panorama_1.png",
+        "assets/Java_and_Bedrock/copper_age/textures/ui/panorama_2.png",
+        "assets/Java_and_Bedrock/copper_age/textures/ui/panorama_3.png",
+        "assets/Java_and_Bedrock/copper_age/textures/ui/panorama_4.png",
+        "assets/Java_and_Bedrock/copper_age/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Java_and_Bedrock/garden_awakens",
+      "title": "Garden Awakens",
+      "category": "Java + Bedrock",
+      "categoryId": "Java_and_Bedrock",
+      "faces": [
+        "assets/Java_and_Bedrock/garden_awakens/textures/ui/panorama_0.png",
+        "assets/Java_and_Bedrock/garden_awakens/textures/ui/panorama_1.png",
+        "assets/Java_and_Bedrock/garden_awakens/textures/ui/panorama_2.png",
+        "assets/Java_and_Bedrock/garden_awakens/textures/ui/panorama_3.png",
+        "assets/Java_and_Bedrock/garden_awakens/textures/ui/panorama_4.png",
+        "assets/Java_and_Bedrock/garden_awakens/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Java_and_Bedrock/mounts_of_mayhem",
+      "title": "Mounts Of Mayhem",
+      "category": "Java + Bedrock",
+      "categoryId": "Java_and_Bedrock",
+      "faces": [
+        "assets/Java_and_Bedrock/mounts_of_mayhem/textures/ui/panorama_0.png",
+        "assets/Java_and_Bedrock/mounts_of_mayhem/textures/ui/panorama_1.png",
+        "assets/Java_and_Bedrock/mounts_of_mayhem/textures/ui/panorama_2.png",
+        "assets/Java_and_Bedrock/mounts_of_mayhem/textures/ui/panorama_3.png",
+        "assets/Java_and_Bedrock/mounts_of_mayhem/textures/ui/panorama_4.png",
+        "assets/Java_and_Bedrock/mounts_of_mayhem/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Java_and_Bedrock/nether",
+      "title": "Nether",
+      "category": "Java + Bedrock",
+      "categoryId": "Java_and_Bedrock",
+      "faces": [
+        "assets/Java_and_Bedrock/nether/textures/ui/panorama_0.png",
+        "assets/Java_and_Bedrock/nether/textures/ui/panorama_1.png",
+        "assets/Java_and_Bedrock/nether/textures/ui/panorama_2.png",
+        "assets/Java_and_Bedrock/nether/textures/ui/panorama_3.png",
+        "assets/Java_and_Bedrock/nether/textures/ui/panorama_4.png",
+        "assets/Java_and_Bedrock/nether/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Java_and_Bedrock/spring_to_life",
+      "title": "Spring To Life",
+      "category": "Java + Bedrock",
+      "categoryId": "Java_and_Bedrock",
+      "faces": [
+        "assets/Java_and_Bedrock/spring_to_life/textures/ui/panorama_0.png",
+        "assets/Java_and_Bedrock/spring_to_life/textures/ui/panorama_1.png",
+        "assets/Java_and_Bedrock/spring_to_life/textures/ui/panorama_2.png",
+        "assets/Java_and_Bedrock/spring_to_life/textures/ui/panorama_3.png",
+        "assets/Java_and_Bedrock/spring_to_life/textures/ui/panorama_4.png",
+        "assets/Java_and_Bedrock/spring_to_life/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Java_and_Bedrock/trails_and_tales",
+      "title": "Trails And Tales",
+      "category": "Java + Bedrock",
+      "categoryId": "Java_and_Bedrock",
+      "faces": [
+        "assets/Java_and_Bedrock/trails_and_tales/textures/ui/panorama_0.png",
+        "assets/Java_and_Bedrock/trails_and_tales/textures/ui/panorama_1.png",
+        "assets/Java_and_Bedrock/trails_and_tales/textures/ui/panorama_2.png",
+        "assets/Java_and_Bedrock/trails_and_tales/textures/ui/panorama_3.png",
+        "assets/Java_and_Bedrock/trails_and_tales/textures/ui/panorama_4.png",
+        "assets/Java_and_Bedrock/trails_and_tales/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Java_and_Bedrock/tricky_trials",
+      "title": "Tricky Trials",
+      "category": "Java + Bedrock",
+      "categoryId": "Java_and_Bedrock",
+      "faces": [
+        "assets/Java_and_Bedrock/tricky_trials/textures/ui/panorama_0.png",
+        "assets/Java_and_Bedrock/tricky_trials/textures/ui/panorama_1.png",
+        "assets/Java_and_Bedrock/tricky_trials/textures/ui/panorama_2.png",
+        "assets/Java_and_Bedrock/tricky_trials/textures/ui/panorama_3.png",
+        "assets/Java_and_Bedrock/tricky_trials/textures/ui/panorama_4.png",
+        "assets/Java_and_Bedrock/tricky_trials/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Java_and_Bedrock/wild",
+      "title": "Wild",
+      "category": "Java + Bedrock",
+      "categoryId": "Java_and_Bedrock",
+      "faces": [
+        "assets/Java_and_Bedrock/wild/textures/ui/panorama_0.png",
+        "assets/Java_and_Bedrock/wild/textures/ui/panorama_1.png",
+        "assets/Java_and_Bedrock/wild/textures/ui/panorama_2.png",
+        "assets/Java_and_Bedrock/wild/textures/ui/panorama_3.png",
+        "assets/Java_and_Bedrock/wild/textures/ui/panorama_4.png",
+        "assets/Java_and_Bedrock/wild/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Java/aquatic_java",
+      "title": "Aquatic",
+      "category": "Java Edition",
+      "categoryId": "Java",
+      "faces": [
+        "assets/Java/aquatic_java/textures/ui/panorama_0.png",
+        "assets/Java/aquatic_java/textures/ui/panorama_1.png",
+        "assets/Java/aquatic_java/textures/ui/panorama_2.png",
+        "assets/Java/aquatic_java/textures/ui/panorama_3.png",
+        "assets/Java/aquatic_java/textures/ui/panorama_4.png",
+        "assets/Java/aquatic_java/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Java/caves_java",
+      "title": "Caves",
+      "category": "Java Edition",
+      "categoryId": "Java",
+      "faces": [
+        "assets/Java/caves_java/textures/ui/panorama_0.png",
+        "assets/Java/caves_java/textures/ui/panorama_1.png",
+        "assets/Java/caves_java/textures/ui/panorama_2.png",
+        "assets/Java/caves_java/textures/ui/panorama_3.png",
+        "assets/Java/caves_java/textures/ui/panorama_4.png",
+        "assets/Java/caves_java/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Java/chase_the_skies_java",
+      "title": "Chase The Skies",
+      "category": "Java Edition",
+      "categoryId": "Java",
+      "faces": [
+        "assets/Java/chase_the_skies_java/textures/ui/panorama_0.png",
+        "assets/Java/chase_the_skies_java/textures/ui/panorama_1.png",
+        "assets/Java/chase_the_skies_java/textures/ui/panorama_2.png",
+        "assets/Java/chase_the_skies_java/textures/ui/panorama_3.png",
+        "assets/Java/chase_the_skies_java/textures/ui/panorama_4.png",
+        "assets/Java/chase_the_skies_java/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Java/classic",
+      "title": "Classic",
+      "category": "Java Edition",
+      "categoryId": "Java",
+      "faces": [
+        "assets/Java/classic/textures/ui/panorama_0.png",
+        "assets/Java/classic/textures/ui/panorama_1.png",
+        "assets/Java/classic/textures/ui/panorama_2.png",
+        "assets/Java/classic/textures/ui/panorama_3.png",
+        "assets/Java/classic/textures/ui/panorama_4.png",
+        "assets/Java/classic/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Java/classic_blurred",
+      "title": "Classic Blurred",
+      "category": "Java Edition",
+      "categoryId": "Java",
+      "faces": [
+        "assets/Java/classic_blurred/textures/ui/panorama_0.png",
+        "assets/Java/classic_blurred/textures/ui/panorama_1.png",
+        "assets/Java/classic_blurred/textures/ui/panorama_2.png",
+        "assets/Java/classic_blurred/textures/ui/panorama_3.png",
+        "assets/Java/classic_blurred/textures/ui/panorama_4.png",
+        "assets/Java/classic_blurred/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Java/indev",
+      "title": "Indev",
+      "category": "Java Edition",
+      "categoryId": "Java",
+      "faces": [
+        "assets/Java/indev/textures/ui/panorama_0.png",
+        "assets/Java/indev/textures/ui/panorama_1.png",
+        "assets/Java/indev/textures/ui/panorama_2.png",
+        "assets/Java/indev/textures/ui/panorama_3.png",
+        "assets/Java/indev/textures/ui/panorama_4.png",
+        "assets/Java/indev/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Java/tiny_takeover_java",
+      "title": "Tiny Takeover",
+      "category": "Java Edition",
+      "categoryId": "Java",
+      "faces": [
+        "assets/Java/tiny_takeover_java/textures/ui/panorama_0.png",
+        "assets/Java/tiny_takeover_java/textures/ui/panorama_1.png",
+        "assets/Java/tiny_takeover_java/textures/ui/panorama_2.png",
+        "assets/Java/tiny_takeover_java/textures/ui/panorama_3.png",
+        "assets/Java/tiny_takeover_java/textures/ui/panorama_4.png",
+        "assets/Java/tiny_takeover_java/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Java/village_and_pillage_java",
+      "title": "Village And Pillage",
+      "category": "Java Edition",
+      "categoryId": "Java",
+      "faces": [
+        "assets/Java/village_and_pillage_java/textures/ui/panorama_0.png",
+        "assets/Java/village_and_pillage_java/textures/ui/panorama_1.png",
+        "assets/Java/village_and_pillage_java/textures/ui/panorama_2.png",
+        "assets/Java/village_and_pillage_java/textures/ui/panorama_3.png",
+        "assets/Java/village_and_pillage_java/textures/ui/panorama_4.png",
+        "assets/Java/village_and_pillage_java/textures/ui/panorama_5.png"
+      ]
+    },
+    {
+      "id": "Others/nether_nintendo_3ds",
+      "title": "Nether Nintendo 3ds",
+      "category": "Other Editions",
+      "categoryId": "Others",
+      "faces": [
+        "assets/Others/nether_nintendo_3ds/textures/ui/panorama_0.png",
+        "assets/Others/nether_nintendo_3ds/textures/ui/panorama_1.png",
+        "assets/Others/nether_nintendo_3ds/textures/ui/panorama_2.png",
+        "assets/Others/nether_nintendo_3ds/textures/ui/panorama_3.png",
+        "assets/Others/nether_nintendo_3ds/textures/ui/panorama_4.png",
+        "assets/Others/nether_nintendo_3ds/textures/ui/panorama_5.png"
+      ]
+    }
+  ]
+}

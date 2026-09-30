@@ -1,0 +1,24 @@
+﻿{
+  "namespace": "start",
+
+  "start_screen@common.base_screen": {
+    "$screen_bg_content": "start.menu_bg"
+  },
+
+  "menu_bg": {
+    "type": "image",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [ "100%", "100%" ],
+    "controls": [
+      {
+        "background": {
+          "type": "image",
+          "fill": true,
+          "texture": "textures/ui/panorama.png",
+          "uv_size": [ "100%c", "100%" ]
+        }
+      }
+    ]
+  }
+}
