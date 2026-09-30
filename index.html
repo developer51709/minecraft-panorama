@@ -34,7 +34,9 @@
       .mark i:nth-child(2), .mark i:nth-child(3) { background: #91ad69; }
       .header-note, .eyebrow, .section-kicker { color: var(--muted); font: 10px var(--mono); letter-spacing: 0; text-transform: uppercase; }
       .header-note { display: flex; align-items: center; gap: 9px; }
-      .live-dot { width: 7px; height: 7px; border-radius: 50%; background: #81a95a; box-shadow: 0 0 0 3px #e1ead3; }
+      .live-dot { position: relative; width: 7px; height: 7px; border-radius: 50%; background: #81a95a; box-shadow: 0 0 0 3px #e1ead3; cursor: pointer; }
+      .live-dot::after { content: ""; position: absolute; inset: -12px; }
+      .live-dot.is-debug { background: var(--lime); box-shadow: 0 0 0 3px #e1ead3, 0 0 14px var(--lime); }
 
       .page { width: min(1440px, 100%); margin: 0 auto; padding: 27px 5vw 38px; }
       .intro-row { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin: 0 0 17px; }
@@ -111,7 +113,7 @@
   <body>
     <header class="site-header">
       <div class="wordmark"><span class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span> MINECRAFT PANORAMA ARCHIVE</div>
-      <div class="header-note"><span class="live-dot"></span> A world of title screens</div>
+      <div class="header-note"><span class="live-dot" id="debug-dot" role="button" tabindex="0" aria-pressed="false" title="Triple-tap for debug view"></span> A world of title screens</div>
     </header>
     <main class="page">
       <section class="intro-row" aria-labelledby="page-title">
