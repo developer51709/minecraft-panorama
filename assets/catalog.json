@@ -35,20 +35,17 @@
       "title": "Craftmine",
       "category": "April Fools'",
       "categoryId": "April_Fools",
-      "faces": [
-        "assets/April_Fools/craftmine/textures/ui/panorama_0.png",
-        "assets/April_Fools/craftmine/textures/ui/panorama_1.png",
-        "assets/April_Fools/craftmine/textures/ui/panorama_2.png",
-        "assets/April_Fools/craftmine/textures/ui/panorama_3.png",
-        "assets/April_Fools/craftmine/textures/ui/panorama_4.png",
-        "assets/April_Fools/craftmine/textures/ui/panorama_5.png"
-      ]
+      "hasCubemap": false,
+      "image": "assets/April_Fools/craftmine/textures/ui/panorama.png",
+      "faces": []
     },
     {
       "id": "April_Fools/herdcraft",
       "title": "Herdcraft",
       "category": "April Fools'",
       "categoryId": "April_Fools",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/April_Fools/herdcraft/textures/ui/panorama_0.png",
         "assets/April_Fools/herdcraft/textures/ui/panorama_1.png",
@@ -63,6 +60,8 @@
       "title": "Poisonous Potato",
       "category": "April Fools'",
       "categoryId": "April_Fools",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/April_Fools/poisonous_potato/textures/ui/panorama_0.png",
         "assets/April_Fools/poisonous_potato/textures/ui/panorama_1.png",
@@ -77,6 +76,8 @@
       "title": "Aquatic",
       "category": "Bedrock Edition",
       "categoryId": "Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Bedrock/aquatic_bedrock/textures/ui/panorama_0.png",
         "assets/Bedrock/aquatic_bedrock/textures/ui/panorama_1.png",
@@ -91,6 +92,8 @@
       "title": "Bedrock Beta",
       "category": "Bedrock Edition",
       "categoryId": "Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Bedrock/bedrock_beta/textures/ui/panorama_0.png",
         "assets/Bedrock/bedrock_beta/textures/ui/panorama_1.png",
@@ -105,6 +108,8 @@
       "title": "Better Together",
       "category": "Bedrock Edition",
       "categoryId": "Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Bedrock/better_together/textures/ui/panorama_0.png",
         "assets/Bedrock/better_together/textures/ui/panorama_1.png",
@@ -119,6 +124,8 @@
       "title": "Buzzy Bees",
       "category": "Bedrock Edition",
       "categoryId": "Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Bedrock/buzzy_bees_bedrock/textures/ui/panorama_0.png",
         "assets/Bedrock/buzzy_bees_bedrock/textures/ui/panorama_1.png",
@@ -133,6 +140,8 @@
       "title": "Cats And Pandas",
       "category": "Bedrock Edition",
       "categoryId": "Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Bedrock/cats_and_pandas/textures/ui/panorama_0.png",
         "assets/Bedrock/cats_and_pandas/textures/ui/panorama_1.png",
@@ -147,6 +156,8 @@
       "title": "Chase The Skies",
       "category": "Bedrock Edition",
       "categoryId": "Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Bedrock/chase_the_skies_bedrock/textures/ui/panorama_0.png",
         "assets/Bedrock/chase_the_skies_bedrock/textures/ui/panorama_1.png",
@@ -161,6 +172,8 @@
       "title": "Chase The Skies Bedrock 1.21.90.25",
       "category": "Bedrock Edition",
       "categoryId": "Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Bedrock/chase_the_skies_bedrock_1.21.90.25/textures/ui/panorama_0.png",
         "assets/Bedrock/chase_the_skies_bedrock_1.21.90.25/textures/ui/panorama_1.png",
@@ -175,6 +188,8 @@
       "title": "Christmas",
       "category": "Bedrock Edition",
       "categoryId": "Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Bedrock/christmas_bedrock/textures/ui/panorama_0.png",
         "assets/Bedrock/christmas_bedrock/textures/ui/panorama_1.png",
@@ -189,6 +204,8 @@
       "title": "Halloween 2021",
       "category": "Bedrock Edition",
       "categoryId": "Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Bedrock/halloween_2021_bedrock/textures/ui/panorama_0.png",
         "assets/Bedrock/halloween_2021_bedrock/textures/ui/panorama_1.png",
@@ -203,6 +220,8 @@
       "title": "Halloween 2022",
       "category": "Bedrock Edition",
       "categoryId": "Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Bedrock/halloween_2022_bedrock/textures/ui/panorama_0.jpg",
         "assets/Bedrock/halloween_2022_bedrock/textures/ui/panorama_1.jpg",
@@ -217,6 +236,8 @@
       "title": "Preview",
       "category": "Bedrock Edition",
       "categoryId": "Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Bedrock/preview_bedrock/textures/ui/panorama_0.png",
         "assets/Bedrock/preview_bedrock/textures/ui/panorama_1.png",
@@ -231,6 +252,8 @@
       "title": "Tiny Takeover",
       "category": "Bedrock Edition",
       "categoryId": "Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Bedrock/tiny_takeover_bedrock/textures/ui/panorama_0.png",
         "assets/Bedrock/tiny_takeover_bedrock/textures/ui/panorama_1.png",
@@ -245,6 +268,8 @@
       "title": "Village And Pillage",
       "category": "Bedrock Edition",
       "categoryId": "Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Bedrock/village_and_pillage_bedrock/textures/ui/panorama_0.png",
         "assets/Bedrock/village_and_pillage_bedrock/textures/ui/panorama_1.png",
@@ -259,6 +284,8 @@
       "title": "Chase The Skies Bedrock Vv",
       "category": "Bedrock Vibrant Visuals",
       "categoryId": "Bedrock_Vibrant_Visuals",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Bedrock_Vibrant_Visuals/chase_the_skies_bedrock-vv/textures/ui/panorama_0.png",
         "assets/Bedrock_Vibrant_Visuals/chase_the_skies_bedrock-vv/textures/ui/panorama_1.png",
@@ -273,6 +300,8 @@
       "title": "Copper Age Bedrock Vv",
       "category": "Bedrock Vibrant Visuals",
       "categoryId": "Bedrock_Vibrant_Visuals",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Bedrock_Vibrant_Visuals/copper_age_bedrock-vv/textures/ui/panorama_0.png",
         "assets/Bedrock_Vibrant_Visuals/copper_age_bedrock-vv/textures/ui/panorama_1.png",
@@ -287,6 +316,8 @@
       "title": "Mounts Of Mayhem Bedrock Vv",
       "category": "Bedrock Vibrant Visuals",
       "categoryId": "Bedrock_Vibrant_Visuals",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Bedrock_Vibrant_Visuals/mounts_of_mayhem_bedrock-vv/textures/ui/panorama_0.png",
         "assets/Bedrock_Vibrant_Visuals/mounts_of_mayhem_bedrock-vv/textures/ui/panorama_1.png",
@@ -301,6 +332,8 @@
       "title": "Tiny Takeover Bedrock Vv",
       "category": "Bedrock Vibrant Visuals",
       "categoryId": "Bedrock_Vibrant_Visuals",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Bedrock_Vibrant_Visuals/tiny_takeover_bedrock-vv/textures/ui/panorama_0.png",
         "assets/Bedrock_Vibrant_Visuals/tiny_takeover_bedrock-vv/textures/ui/panorama_1.png",
@@ -315,6 +348,8 @@
       "title": "1.14",
       "category": "Education Edition",
       "categoryId": "Education",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Education/1.14_education/textures/ui/panorama_0.png",
         "assets/Education/1.14_education/textures/ui/panorama_1.png",
@@ -329,6 +364,8 @@
       "title": "1.14 Demo",
       "category": "Education Edition",
       "categoryId": "Education",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Education/1.14_demo_education/textures/ui/panorama_0.png",
         "assets/Education/1.14_demo_education/textures/ui/panorama_1.png",
@@ -343,6 +380,8 @@
       "title": "Chase The Clouds",
       "category": "Education Edition",
       "categoryId": "Education",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Education/chase_the_clouds_education/textures/ui/panorama_0.png",
         "assets/Education/chase_the_clouds_education/textures/ui/panorama_1.png",
@@ -357,6 +396,8 @@
       "title": "Cloud",
       "category": "Education Edition",
       "categoryId": "Education",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Education/cloud_education/textures/ui/panorama_0.png",
         "assets/Education/cloud_education/textures/ui/panorama_1.png",
@@ -371,6 +412,8 @@
       "title": "Copper Collaborate Complete",
       "category": "Education Edition",
       "categoryId": "Education",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Education/copper_collaborate_complete_education/textures/ui/panorama_0.png",
         "assets/Education/copper_collaborate_complete_education/textures/ui/panorama_1.png",
@@ -385,6 +428,8 @@
       "title": "Goat",
       "category": "Education Edition",
       "categoryId": "Education",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Education/goat_education/textures/ui/panorama_0.png",
         "assets/Education/goat_education/textures/ui/panorama_1.png",
@@ -399,6 +444,8 @@
       "title": "Learn To Code",
       "category": "Education Edition",
       "categoryId": "Education",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Education/learn_to_code_education/textures/ui/panorama_0.png",
         "assets/Education/learn_to_code_education/textures/ui/panorama_1.png",
@@ -413,6 +460,8 @@
       "title": "Mobile Multiplayer More",
       "category": "Education Edition",
       "categoryId": "Education",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Education/mobile_multiplayer_more_education/textures/ui/panorama_0.png",
         "assets/Education/mobile_multiplayer_more_education/textures/ui/panorama_1.png",
@@ -427,6 +476,8 @@
       "title": "School",
       "category": "Education Edition",
       "categoryId": "Education",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Education/school_education/textures/ui/panorama_0.png",
         "assets/Education/school_education/textures/ui/panorama_1.png",
@@ -441,6 +492,8 @@
       "title": "School Demo",
       "category": "Education Edition",
       "categoryId": "Education",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Education/school_demo_education/textures/ui/panorama_0.png",
         "assets/Education/school_demo_education/textures/ui/panorama_1.png",
@@ -455,6 +508,8 @@
       "title": "Trails And Tales",
       "category": "Education Edition",
       "categoryId": "Education",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Education/trails_and_tales_education/textures/ui/panorama_0.png",
         "assets/Education/trails_and_tales_education/textures/ui/panorama_1.png",
@@ -469,6 +524,8 @@
       "title": "Wild",
       "category": "Education Edition",
       "categoryId": "Education",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Education/wild_education/textures/ui/panorama_0.png",
         "assets/Education/wild_education/textures/ui/panorama_1.png",
@@ -483,6 +540,8 @@
       "title": "Buzzy Bees",
       "category": "Java + Bedrock",
       "categoryId": "Java_and_Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Java_and_Bedrock/buzzy_bees/textures/ui/panorama_0.png",
         "assets/Java_and_Bedrock/buzzy_bees/textures/ui/panorama_1.png",
@@ -497,6 +556,8 @@
       "title": "Caves",
       "category": "Java + Bedrock",
       "categoryId": "Java_and_Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Java_and_Bedrock/caves/textures/ui/panorama_0.png",
         "assets/Java_and_Bedrock/caves/textures/ui/panorama_1.png",
@@ -511,6 +572,8 @@
       "title": "Cliffs",
       "category": "Java + Bedrock",
       "categoryId": "Java_and_Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Java_and_Bedrock/cliffs/textures/ui/panorama_0.png",
         "assets/Java_and_Bedrock/cliffs/textures/ui/panorama_1.png",
@@ -525,6 +588,8 @@
       "title": "Copper Age",
       "category": "Java + Bedrock",
       "categoryId": "Java_and_Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Java_and_Bedrock/copper_age/textures/ui/panorama_0.png",
         "assets/Java_and_Bedrock/copper_age/textures/ui/panorama_1.png",
@@ -539,6 +604,8 @@
       "title": "Garden Awakens",
       "category": "Java + Bedrock",
       "categoryId": "Java_and_Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Java_and_Bedrock/garden_awakens/textures/ui/panorama_0.png",
         "assets/Java_and_Bedrock/garden_awakens/textures/ui/panorama_1.png",
@@ -553,6 +620,8 @@
       "title": "Mounts Of Mayhem",
       "category": "Java + Bedrock",
       "categoryId": "Java_and_Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Java_and_Bedrock/mounts_of_mayhem/textures/ui/panorama_0.png",
         "assets/Java_and_Bedrock/mounts_of_mayhem/textures/ui/panorama_1.png",
@@ -567,6 +636,8 @@
       "title": "Nether",
       "category": "Java + Bedrock",
       "categoryId": "Java_and_Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Java_and_Bedrock/nether/textures/ui/panorama_0.png",
         "assets/Java_and_Bedrock/nether/textures/ui/panorama_1.png",
@@ -581,6 +652,8 @@
       "title": "Spring To Life",
       "category": "Java + Bedrock",
       "categoryId": "Java_and_Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Java_and_Bedrock/spring_to_life/textures/ui/panorama_0.png",
         "assets/Java_and_Bedrock/spring_to_life/textures/ui/panorama_1.png",
@@ -595,6 +668,8 @@
       "title": "Trails And Tales",
       "category": "Java + Bedrock",
       "categoryId": "Java_and_Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Java_and_Bedrock/trails_and_tales/textures/ui/panorama_0.png",
         "assets/Java_and_Bedrock/trails_and_tales/textures/ui/panorama_1.png",
@@ -609,6 +684,8 @@
       "title": "Tricky Trials",
       "category": "Java + Bedrock",
       "categoryId": "Java_and_Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Java_and_Bedrock/tricky_trials/textures/ui/panorama_0.png",
         "assets/Java_and_Bedrock/tricky_trials/textures/ui/panorama_1.png",
@@ -623,6 +700,8 @@
       "title": "Wild",
       "category": "Java + Bedrock",
       "categoryId": "Java_and_Bedrock",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Java_and_Bedrock/wild/textures/ui/panorama_0.png",
         "assets/Java_and_Bedrock/wild/textures/ui/panorama_1.png",
@@ -637,6 +716,8 @@
       "title": "Aquatic",
       "category": "Java Edition",
       "categoryId": "Java",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Java/aquatic_java/textures/ui/panorama_0.png",
         "assets/Java/aquatic_java/textures/ui/panorama_1.png",
@@ -651,6 +732,8 @@
       "title": "Caves",
       "category": "Java Edition",
       "categoryId": "Java",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Java/caves_java/textures/ui/panorama_0.png",
         "assets/Java/caves_java/textures/ui/panorama_1.png",
@@ -665,6 +748,8 @@
       "title": "Chase The Skies",
       "category": "Java Edition",
       "categoryId": "Java",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Java/chase_the_skies_java/textures/ui/panorama_0.png",
         "assets/Java/chase_the_skies_java/textures/ui/panorama_1.png",
@@ -679,6 +764,8 @@
       "title": "Classic",
       "category": "Java Edition",
       "categoryId": "Java",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Java/classic/textures/ui/panorama_0.png",
         "assets/Java/classic/textures/ui/panorama_1.png",
@@ -693,6 +780,8 @@
       "title": "Classic Blurred",
       "category": "Java Edition",
       "categoryId": "Java",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Java/classic_blurred/textures/ui/panorama_0.png",
         "assets/Java/classic_blurred/textures/ui/panorama_1.png",
@@ -707,20 +796,17 @@
       "title": "Indev",
       "category": "Java Edition",
       "categoryId": "Java",
-      "faces": [
-        "assets/Java/indev/textures/ui/panorama_0.png",
-        "assets/Java/indev/textures/ui/panorama_1.png",
-        "assets/Java/indev/textures/ui/panorama_2.png",
-        "assets/Java/indev/textures/ui/panorama_3.png",
-        "assets/Java/indev/textures/ui/panorama_4.png",
-        "assets/Java/indev/textures/ui/panorama_5.png"
-      ]
+      "hasCubemap": false,
+      "image": "assets/Java/indev/textures/ui/panorama.png",
+      "faces": []
     },
     {
       "id": "Java/tiny_takeover_java",
       "title": "Tiny Takeover",
       "category": "Java Edition",
       "categoryId": "Java",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Java/tiny_takeover_java/textures/ui/panorama_0.png",
         "assets/Java/tiny_takeover_java/textures/ui/panorama_1.png",
@@ -735,6 +821,8 @@
       "title": "Village And Pillage",
       "category": "Java Edition",
       "categoryId": "Java",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Java/village_and_pillage_java/textures/ui/panorama_0.png",
         "assets/Java/village_and_pillage_java/textures/ui/panorama_1.png",
@@ -749,6 +837,8 @@
       "title": "Nether Nintendo 3ds",
       "category": "Other Editions",
       "categoryId": "Others",
+      "hasCubemap": true,
+      "image": null,
       "faces": [
         "assets/Others/nether_nintendo_3ds/textures/ui/panorama_0.png",
         "assets/Others/nether_nintendo_3ds/textures/ui/panorama_1.png",

@@ -1,3 +1,5 @@
+import { HISTORY } from "./history.js";
+
 const stage = document.querySelector("#stage");
 const canvas = document.querySelector("#panorama");
 const gallery = document.querySelector("#gallery");
@@ -92,6 +94,36 @@ function setDebug(enabled) {
   debugDot.title = enabled ? "Debug view on - triple-tap to hide" : "Triple-tap for debug view";
 }
 
+function historyFor(id) {
+  return HISTORY[id] || {};
+}
+
+function renderDetail(panorama) {
+  const info = historyFor(panorama.id);
+  document.querySelector("#detail-year").textContent = info.year ? String(info.year) : "\u2014";
+  document.querySelector("#detail-category").textContent = panorama.category;
+  document.querySelector("#detail-title").textContent = panorama.title;
+  document.querySelector("#detail-summary").textContent = info.summary || "No archived notes for this panorama yet.";
+  document.querySelector("#detail-release").textContent = info.release || "Release date unknown";
+  document.querySelector("#detail-version").textContent = info.version || panorama.category;
+  const facts = document.querySelector("#detail-facts");
+  facts.replaceChildren();
+  const list = info.facts || [];
+  for (const fact of list) {
+    const item = document.createElement("li");
+    item.textContent = fact;
+    facts.append(item);
+  }
+  facts.hidden = list.length === 0;
+}
+
+function renderStats(panoramas, groups) {
+  const years = panoramas.map((panorama) => historyFor(panorama.id).year).filter((year) => typeof year === "number");
+  document.querySelector("#stat-count").textContent = String(panoramas.length);
+  document.querySelector("#stat-editions").textContent = String(groups.length);
+  document.querySelector("#stat-span").textContent = years.length ? `${Math.min(...years)}\u2013${Math.max(...years)}` : "\u2014";
+}
+
 function setLoading(message, isError = false) {
   loading.textContent = message;
   loading.classList.remove("is-hidden");
@@ -128,10 +160,46 @@ function animate(time) {
   renderer.render(scene, camera);
 }
 
+function updateStageText(panorama) {
+  document.querySelector("#edition-tag").textContent = panorama.category;
+  document.querySelector("#scene-category").textContent = panorama.category;
+  document.querySelector("#scene-name").textContent = panorama.title;
+  document.querySelector("#scene-index").textContent = `${String(state.panoramas.indexOf(panorama) + 1).padStart(2, "0")} / ${state.panoramas.length}`;
+  document.querySelectorAll(".panorama-card").forEach((card) => {
+    card.setAttribute("aria-current", String(card.dataset.id === panorama.id));
+  });
+}
+
+// Packs that ship a single flat background instead of six cubemap faces cannot be
+// looked around, so the stage shows the static asset with a "360 Unavailable" note
+// and the orbit controls are disabled.
+function setStageEmpty(panorama) {
+  const isEmpty = Boolean(panorama);
+  document.querySelector("#stage-empty").hidden = !isEmpty;
+  document.querySelector("#stage-badge").hidden = !isEmpty;
+  document.querySelector("#scene-index").hidden = isEmpty;
+  for (const control of [rotationButton, resetButton, fullscreenButton]) control.disabled = isEmpty;
+  if (!isEmpty) return;
+  const image = document.querySelector("#stage-empty-image");
+  image.src = panorama.image || "";
+  image.alt = `${panorama.title} title screen`;
+  if (activeTexture) activeTexture.dispose();
+  activeTexture = null;
+  scene.background = null;
+  hideLoading();
+}
+
 function loadPanorama(panorama) {
   state.activeId = panorama.id;
   state.yaw = 0;
   state.pitch = 0;
+  updateStageText(panorama);
+  renderDetail(panorama);
+  if (panorama.hasCubemap === false) {
+    setStageEmpty(panorama);
+    return;
+  }
+  setStageEmpty(null);
   setLoading("Loading panorama");
   new THREE.CubeTextureLoader().load(cubeFaceUrls(panorama), (texture) => {
     texture.colorSpace = THREE.SRGBColorSpace;
@@ -139,13 +207,6 @@ function loadPanorama(panorama) {
     if (activeTexture) activeTexture.dispose();
     activeTexture = texture;
     scene.background = texture;
-    document.querySelector("#edition-tag").textContent = panorama.category;
-    document.querySelector("#scene-category").textContent = panorama.category;
-    document.querySelector("#scene-name").textContent = panorama.title;
-    document.querySelector("#scene-index").textContent = `${String(state.panoramas.indexOf(panorama) + 1).padStart(2, "0")} / ${state.panoramas.length}`;
-    document.querySelectorAll(".panorama-card").forEach((card) => {
-      card.setAttribute("aria-current", String(card.dataset.id === panorama.id));
-    });
     hideLoading();
   }, undefined, () => setLoading("Could not load this panorama", true));
 }
@@ -192,7 +253,7 @@ function renderGallery() {
   const query = state.query.trim().toLowerCase();
   state.visible = state.panoramas.filter((panorama) => {
     const categoryMatches = state.category === "all" || panorama.categoryId === state.category;
-    const searchMatches = !query || `${panorama.title} ${panorama.category}`.toLowerCase().includes(query);
+    const searchMatches = !query || `${panorama.title} ${panorama.category} ${historyFor(panorama.id).release ?? ""}`.toLowerCase().includes(query);
     return categoryMatches && searchMatches;
   });
   document.querySelector("#collection-count").textContent = `${state.visible.length} PANORAMAS`;
@@ -210,23 +271,36 @@ function renderGallery() {
     card.className = "panorama-card";
     card.dataset.id = panorama.id;
     card.setAttribute("aria-current", String(panorama.id === state.activeId));
-    card.setAttribute("aria-label", `View ${panorama.title}, ${panorama.category}`);
-    const image = document.createElement("img");
-    image.className = "card-image";
-    image.src = panorama.faces[0];
-    image.alt = "";
-    image.loading = "lazy";
+    card.setAttribute("aria-label", panorama.hasCubemap === false ? `${panorama.title}, ${panorama.category} (no 360 panorama)` : `View ${panorama.title}, ${panorama.category}`);
+    const history = historyFor(panorama.id);
+    const frame = document.createElement("span");
+    frame.className = "card-frame";
+    if (panorama.hasCubemap === false) {
+      const flat = document.createElement("span");
+      flat.className = "card-flat";
+      const label = document.createElement("span");
+      label.textContent = "No 360\u00b0";
+      flat.append(label);
+      frame.append(flat);
+    } else {
+      const image = document.createElement("img");
+      image.className = "card-image";
+      image.src = panorama.faces[0];
+      image.alt = "";
+      image.loading = "lazy";
+      frame.append(image);
+    }
     const info = document.createElement("span");
     info.className = "card-info";
     const text = document.createElement("span");
     text.innerHTML = '<span class="card-name"></span><span class="card-category"></span>';
     text.querySelector(".card-name").textContent = panorama.title;
     text.querySelector(".card-category").textContent = panorama.category;
-    const number = document.createElement("span");
-    number.className = "card-number";
-    number.textContent = String(index + 1).padStart(2, "0");
-    info.append(text, number);
-    card.append(image, info);
+    const year = document.createElement("span");
+    year.className = "card-number";
+    year.textContent = history.year ? String(history.year) : "\u2014";
+    info.append(text, year);
+    card.append(frame, info);
     card.addEventListener("click", () => loadPanorama(panorama));
     gallery.append(card);
   });
@@ -302,8 +376,10 @@ async function init() {
     enableControls();
     renderFilters(catalog.groups);
     renderGallery();
-    if (!state.panoramas.length) throw new Error("No six-face panorama sets were found in assets.");
-    loadPanorama(state.panoramas[0]);
+    renderStats(catalog.panoramas, catalog.groups);
+    if (!state.panoramas.length) throw new Error("No panorama entries were found in assets.");
+    const initial = state.panoramas.find((panorama) => panorama.hasCubemap) || state.panoramas[0];
+    loadPanorama(initial);
   } catch (error) {
     console.error(error);
     setLoading(error.message || "Could not open the panorama archive", true);
